@@ -1,5 +1,3 @@
-RUN apt-get update && apt-get install -y vim
-
 ENV JAVA_VERSION 1.8.0_sr5fp6
 
 RUN set -eux; \
